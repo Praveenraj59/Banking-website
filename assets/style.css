@@ -11,6 +11,7 @@ header{
     height: 100px;
     width: 100px;
     padding: 20px;
+    cursor: pointer;
 }
 .menu{
     width: 10px;
