@@ -2,7 +2,8 @@
     margin: 0%;
     padding: 0%;
     text-decoration: none;
-    color: rgb(107, 172, 246);
+   
+
 }
 header{
     background-color: rgb(107, 172, 246);
@@ -67,6 +68,7 @@ header{
 input{
     border: ridge;
     border-radius: 10px;
+    
 }
 h1{
     float: right;
@@ -82,4 +84,21 @@ h1{
     padding-right: 15px;
     margin-top: 10px;
     color: rgb(107, 172, 246);
+}
+.menu1{
+    display: flex;
+    justify-content: center;
+    
+}
+.menu1 ul{
+    display: flex;
+    align-items: center;
+
+  
+}
+.menu1 li{
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px;
+    font-size: large;
 }
